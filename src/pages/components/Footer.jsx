@@ -1,13 +1,13 @@
 import pucvlogo from "../../assets/pucv.gif";
 import anidlogo from "../../assets/anid.png";
-import finLogo from "../../assets/Facultad de Ingeniería_COLOR.png";
+//import finLogo from "../../assets/Facultad de Ingeniería_COLOR.png";
 import otlLogo from "../../assets/logo_OTL.png";
 import inesLogo from "../../assets/ines.png";
 import vicerrectoriaLogo from "../../assets/vicerrectoria.svg";
 
 function Footer() {
   const allLogos = [
-    { src: finLogo, alt: "Logo Facultad de Ingeniería" },
+    //{ src: finLogo, alt: "Logo Facultad de Ingeniería" },
     { src: otlLogo, alt: "Logo OTL" },
     { src: inesLogo, alt: "Logo INES" },
     { src: vicerrectoriaLogo, alt: "Logo Vicerrectoría PUCV" },
