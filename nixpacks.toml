@@ -1,0 +1,6 @@
+# nixpacks.toml
+[phases.setup]
+nixPkgs = ["bun"]
+
+[phases.install]
+cmd = "bun install"
