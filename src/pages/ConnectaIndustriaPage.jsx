@@ -66,7 +66,7 @@ export default function ConnectaIndustriaPage() {
   };
 
   return (
-    <div className="bg-gradient-to-br from-slate-50 to-slate-100 py-4 px-4 relative">
+    <div className="bg-slate-100 py-4 px-4 relative">
       {" "}
       {/* Añadí relative para posicionar el botón de volver si es necesario */}
       <div className="max-w-7xl mx-auto">

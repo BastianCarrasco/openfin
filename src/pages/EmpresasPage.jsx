@@ -70,7 +70,7 @@ export default function EmpresasPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-sky-50 to-slate-100 py-8">
+    <div className="bg-slate-100 py-8">
       <div className="relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-0 right-0 w-72 h-72 bg-sky-100/30 rounded-full -translate-y-32 translate-x-32"></div>
