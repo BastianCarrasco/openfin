@@ -4,3 +4,6 @@ nixPkgs = ["bun"]
 
 [phases.install]
 cmd = "bun install"
+
+[phases.build]
+cmd = "bun run build" # Assuming 'bun run build' is your build command
