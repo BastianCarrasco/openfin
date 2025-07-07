@@ -46,7 +46,7 @@ export default function AcademicosPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-sky-50 to-slate-100 py-8">
+    <div className=" bg-slate-100 py-8">
       {/* Header Section */}
       <div className="relative overflow-hidden">
         {/* Background decoration - Reduje tamaños y traslaciones */}
