@@ -69,7 +69,7 @@ export default function EstudiantesPage() {
   };
 
   return (
-    <div className="bg-slate-100 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100 py-8">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         {/* Background decoration - reduje tamaños y traslaciones */}

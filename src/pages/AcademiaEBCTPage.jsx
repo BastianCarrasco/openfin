@@ -61,7 +61,7 @@ export default function AcademiaEBCTPage() {
   ];
 
   return (
-    <div className=" bg-slate-100 py-4 px-4 relative">
+    <div className="bg-gradient-to-br from-slate-50 to-slate-100 py-4 px-4 relative">
       {" "}
       {/* Añadí relative para posicionar el botón de volver si es necesario */}
       <div className="max-w-7xl mx-auto">
@@ -118,7 +118,7 @@ export default function AcademiaEBCTPage() {
                     className={`group cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5 border-0 ${
                       item.isSpecial
                         ? "bg-gradient-to-br from-pink-500 via-purple-600 to-cyan-500 text-white"
-                        : "bg-gradient-to-br from-cyan-600 to-cyan-700 text-white" // <-- Aquí se puede ajustar el gradiente para que sea más coherente si es necesario
+                        : "bg-gradient-to-br from-sky-600 to-sky-700 text-white" // <-- Aquí se puede ajustar el gradiente para que sea más coherente si es necesario
                     }`}
                   >
                     <CardContent className="p-4 h-full flex flex-col relative overflow-hidden">
